@@ -2,7 +2,6 @@ import express from 'express'
 import routes from './routes/routes'
 // import auth from './middlewares/auth'
 import wrongRoute from './middlewares/wrongRoute'
-
 import dotenv from 'dotenv'
 
 dotenv.config()
